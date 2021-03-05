@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.goodt.vcp" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Goodt corpportal</name>
+    <description>
+        Goodt corp portal app.
+    </description>
+    <author email="support@phonegap.com" href="http://phonegap.com">
+        PhoneGap Team
+    </author>
+    <content src="index.html" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="19" />
+    <preference name="phonegap-version" value="cli-9.0.0" />
+
+    <preference name="StatusBarBackgroundColor" value="#ffffff" />
+    <preference name="StatusBarStyle" value="blackopaque" />
+
+    <plugin name="cordova-plugin-battery-status" source="npm" spec="~1.2.4" />
+    <plugin name="cordova-plugin-camera" source="npm" spec="~2.4.1" />
+    <plugin name="cordova-plugin-media-capture" source="npm" spec="~1.4.3" />
+    <plugin name="cordova-plugin-device" source="npm" spec="~1.1.6" />
+    <plugin name="cordova-plugin-dialogs" source="npm" spec="~1.3.3" />
+    <plugin name="cordova-plugin-file" source="npm" spec="~4.3.3" />
+    <plugin name="cordova-plugin-geolocation" source="npm" spec="~2.4.3" />
+    <plugin name="cordova-plugin-globalization" source="npm" spec="~1.0.7" />
+    <plugin name="cordova-plugin-inappbrowser" source="npm" spec="~1.7.1" />
+    <plugin name="cordova-plugin-network-information" source="npm" spec="~1.3.3" />
+    <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.5" />
+    <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.3.4" />
+    <plugin name="phonegap-plugin-push" spec="https://github.com/phonegap/phonegap-plugin-push.git">
+        <variable name="SENDER_ID" value="974960813753" />
+    </plugin>
+    <platform name="android">
+        <resource-file src="google-services.json" target="app/google-services.json" />
+        <icon density="ldpi" src="assets/icon/android/ldpi.png" />
+        <icon density="mdpi" src="assets/icon/android/mdpi.png" />
+        <icon density="hdpi" src="assets/icon/android/hdpi.png" />
+        <icon density="xhdpi" src="assets/icon/android/xhdpi.png" />
+        <icon density="xxhdpi" src="assets/icon/android/xxhdpi.png" />
+        <icon density="xxxhdpi" src="assets/icon/android/xxxhdpi.png" />
+        <splash density="land-ldpi" src="assets/screen/android/splash-land-ldpi.png" />
+        <splash density="land-mdpi" src="assets/screen/android/splash-land-mdpi.png" />
+        <splash density="land-hdpi" src="assets/screen/android/splash-land-hdpi.png" />
+        <splash density="land-xhdpi" src="assets/screen/android/splash-land-xhdpi.png" />
+        <splash density="land-xxhdpi" src="assets/screen/android/splash-land-xxhdpi.png" />
+        <splash density="land-xxxhdpi" src="assets/screen/android/splash-land-xxxhdpi.png" />
+        <splash density="port-ldpi" src="assets/screen/android/splash-port-ldpi.png" />
+        <splash density="port-mdpi" src="assets/screen/android/splash-port-mdpi.png" />
+        <splash density="port-hdpi" src="assets/screen/android/splash-port-hdpi.png" />
+        <splash density="port-xhdpi" src="assets/screen/android/splash-port-xhdpi.png" />
+        <splash density="port-xxhdpi" src="assets/screen/android/splash-port-xxhdpi.png" />
+        <splash density="port-xxxhdpi" src="assets/screen/android/splash-port-xxxhdpi.png" />
+    </platform>
+    <platform name="ios">
+        <!-- <resource-file src="GoogleService-Info.plist" /> -->
+        <icon height="57" platform="ios" src="assets/icon/ios/icon.png" width="57" />
+        <icon height="114" platform="ios" src="assets/icon/ios/icon@2x.png" width="114" />
+        <icon height="60" platform="ios" src="assets/icon/ios/icon-60.png" width="60" />
+        <icon height="120" platform="ios" src="assets/icon/ios/icon-60@2x.png" width="120" />
+        <icon height="180" platform="ios" src="assets/icon/ios/icon-60@3x.png" width="180" />
+        <icon height="72" platform="ios" src="assets/icon/ios/icon-72.png" width="72" />
+        <icon height="144" platform="ios" src="assets/icon/ios/icon-72@2x.png" width="144" />
+        <icon height="76" platform="ios" src="assets/icon/ios/icon-76.png" width="76" />
+        <icon height="152" platform="ios" src="assets/icon/ios/icon-76@2x.png" width="152" />
+        <icon height="29" platform="ios" src="assets/icon/ios/icon-small.png" width="29" />
+        <icon height="58" platform="ios" src="assets/icon/ios/icon-small@2x.png" width="58" />
+        <icon height="87" platform="ios" src="assets/icon/ios/icon-small@3x.png" width="87" />
+        <splash height="2732" platform="ios" src="assets/screen/ios/Default@2x~ipad~anyany.png" width="2732" />
+        <splash height="2732" platform="ios" src="assets/screen/ios/Default@2x~ipad~comany.png" width="1278" />
+        <splash height="1334" platform="ios" src="assets/screen/ios/Default@2x~iphone~anyany.png" width="1334" />
+        <splash height="1334" platform="ios" src="assets/screen/ios/Default@2x~iphone~comany.png" width="750" />
+        <splash height="750" platform="ios" src="assets/screen/ios/Default@2x~iphone~comcom.png" width="1334" />
+        <splash height="2208" platform="ios" src="assets/screen/ios/Default@3x~iphone~anyany.png" width="2208" />
+        <splash height="1242" platform="ios" src="assets/screen/ios/Default@3x~iphone~anycom.png" width="2208" />
+        <splash height="2208" platform="ios" src="assets/screen/ios/Default@3x~iphone~comany.png" width="1242" />
+    </platform>
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+</widget>

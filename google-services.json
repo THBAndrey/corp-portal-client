@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "974960813753",
+    "firebase_url": "https://goodt-corpportal.firebaseio.com",
+    "project_id": "goodt-corpportal",
+    "storage_bucket": "goodt-corpportal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:974960813753:android:215e5c25402bc31e57dd68",
+        "android_client_info": {
+          "package_name": "com.goodt.vcp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "974960813753-ca07oje9spcod6quras2me3res67brqp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTtA3LkvWVYNOmhkc6OZuTVKOk2_gWiCQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "974960813753-ca07oje9spcod6quras2me3res67brqp.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "974960813753-fk426f7virumcptk2q6rf5uolup2j18g.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.goodt.vcp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
