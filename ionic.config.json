@@ -1,0 +1,7 @@
+{
+    "name": "goodt-vcp",
+    "type": "custom",
+    "integrations": {
+        "cordova": {}
+    }
+}

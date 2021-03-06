@@ -1,4 +1,13 @@
 {
+  "name": "goodt-vcp",
+  "version": "1.0.0",
+  "description": "Goodt corp portal app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://a.lazarev@goodt-git.goodt.me/scm/abc/corp-portal-client.git"
+  },
+  "author": "Goodt",
+  "license": "ISC",
   "devDependencies": {
     "cordova-plugin-battery-status": "~1.2.4",
     "cordova-plugin-camera": "~2.4.1",
